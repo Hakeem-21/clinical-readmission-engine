@@ -1,0 +1,6 @@
+Model,Mean ROC-AUC,Mean PR-AUC,Mean F1
+Logistic Regression,0.609,0.1377,0.1972
+Linear SVM (Calibrated),0.6085,0.1369,0.0028
+XGBoost,0.6038,0.1344,0.1972
+Random Forest,0.6093,0.1331,0.1958
+Gaussian Naive Bayes,0.5142,0.0924,0.165

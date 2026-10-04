@@ -1,0 +1,22 @@
+# Python & Environment
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+env/
+venv/
+clinical-ml/
+
+# Datasets & Databases (Keep raw/heavy files out of Git)
+data/raw/
+data/clinical_records.db
+data/processed/*.parquet
+
+# Model Binaries
+models/*.joblib
+
+# VS Code & OS artifacts
+.vscode/
+.DS_Store
+Thumbs.db
